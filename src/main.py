@@ -5,7 +5,7 @@ from src.stt.speech_to_text import SpeechToText
 
 def main():
     # 1. 손글씨 추출
-    image_path = "data/input/handwritten_sample.jpg"
+    image_path = "data/input/sample_data.jpg"
     ocr = HandwritingRecognizer()
     extracted_text = ocr.extract_text(image_path)
     print("추출된 텍스트:", extracted_text)
