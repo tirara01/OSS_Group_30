@@ -1,0 +1,8 @@
+opencv-python==4.5.5.64
+pytesseract==0.3.8
+transformers==4.30.0
+torch==2.1.0
+pyttsx3==2.90
+gtts==2.3.0
+SpeechRecognition==3.8.1
+pyaudio==0.2.11
